@@ -1,0 +1,37 @@
+body {
+  font-family: verdana;
+}
+
+button {
+  width: 80px; /*le asignamos un ancho al botón*/
+}
+
+nav {
+  width: 60%;
+  margin-left: 20%;
+  text-align: center; /*centramos nuestro texto*/
+}
+
+ul {
+  list-style: none; /*quita los puntitos de la lista no ordenada*/
+}
+
+li:hover {
+  background-color: lightgrey;
+}
+
+a {
+  text-decoration: none; /*quita el subrayado al texto*/
+}
+
+a:hover {
+  color: white;
+}
+
+.enabled-menu {
+  display: block;
+}
+
+.disabled-menu {
+  display: none;
+}
